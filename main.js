@@ -83,6 +83,7 @@ function escolherCarta(){
             let carta2 = escolhidas[1]; 
 
             if(carta1.name == carta2.name){
+                efeitoSonoro(carta1,carta2)
                 carta1.src = "images/branco.png";
                 carta2.src = "images/branco.png";
                 carta1.removeEventListener("click", escolherCarta);
@@ -105,3 +106,10 @@ function escolherCarta(){
 
     };
 };
+
+function efeitoSonoro(carta1,carta2){
+    let rockAudio = document.querySelector(".rock-sound")
+    if(carta1.name == "rock" && carta2.name == "rock"){
+        rockAudio.play()
+    }
+}
