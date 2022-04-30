@@ -1,14 +1,42 @@
 
-h1,p{
+body{
+    background: linear-gradient(110deg, rgba(0, 0, 0, 0.062), rgba(127, 255, 212, 0.171));
+    background-size: cover;
+}
+.titulo,.pontuacao{
     text-align: center;
+    font-family: arial;
+}
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.pontuacao{
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
 }
 #grade{
     display: flex;
     flex-wrap: wrap;
-    width: 520px;
+    justify-content: center;
+    padding: 8px;
+    width: 590px;
     margin: auto;
+    gap: 10px;
+    background: rgba(0, 174, 255, 0.342);
 }
 img{
     width: 130px;
-    
+}
+@media screen and (max-width: 480px){
+    #grade{
+        padding: 8px;
+        width: 400px;
+    }
+    img{
+        width: 90px;
+    }
 }
