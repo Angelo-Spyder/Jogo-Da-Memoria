@@ -50,9 +50,7 @@ const baralho = [
     }
 ];
 
-baralho.sort(() =>{
-    return 0.5 - Math.random()
-})
+
 
 const grade = document.querySelector("#grade")
 const pontuacao = document.querySelector("#pontos")
@@ -60,6 +58,9 @@ let pontos;
 let escolhidas = [];
 
 function criarGrade(){
+    baralho.sort(() =>{
+        return 0.5 - Math.random()
+    })
     pontos = 0
     pontuacao.innerText = pontos;
     for(let i = 0; i < baralho.length; i++){
@@ -96,7 +97,7 @@ function escolherCarta(){
             };
 
             if(pontos == baralho.length / 2){
-                alert("muito boa");
+                alert("Parabéns");
                 grade.innerHTML = "";
                 criarGrade();
             };
@@ -108,8 +109,30 @@ function escolherCarta(){
 };
 
 function efeitoSonoro(carta1,carta2){
-    let rockAudio = document.querySelector(".rock-sound")
+    let rockAudio = document.querySelector(".rock-sound");
+    let poio = document.querySelector(".poio");
+    let smzinho = document.querySelector(".smzinho");
+    let blackSuit = document.querySelector(".blackSuit");
+    let ednaldo = document.querySelector(".ednaldo");
+    let srIncrivel = document.querySelector(".sr-incrivel");
+
+
     if(carta1.name == "rock" && carta2.name == "rock"){
         rockAudio.play()
-    }
-}
+    };
+    if(carta1.name == "kirbo" && carta2.name == "kirbo"){
+        poio.play()
+    };
+    if(carta1.name == "azul" && carta2.name == "azul"){
+        smzinho.play()
+    };
+    if(carta1.name == "incrivel" && carta2.name == "incrivel"){
+        srIncrivel.play()
+    };
+    if(carta1.name == "tobey" && carta2.name == "tobey"){
+        blackSuit.play()
+    };
+    if(carta1.name == "deus" && carta2.name == "deus"){
+        ednaldo.play()
+    };
+};
