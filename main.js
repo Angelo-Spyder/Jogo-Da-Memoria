@@ -103,7 +103,7 @@ function escolherCarta(){
             };
 
             escolhidas = []
-        },1000)
+        },500)
 
     };
 };
