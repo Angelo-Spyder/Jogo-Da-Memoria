@@ -8,3 +8,11 @@
 
 <h2>Exemplo: </h2>
 <img src="jogo-da-memoria.png" alt="Imagem do jogo">
+
+<h2>Tecnologias e acesso</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+</ul>
+<p>Acesse o projeto pelo link https://angelo-spyder.github.io/Jogo-Da-Memoria/</p>
