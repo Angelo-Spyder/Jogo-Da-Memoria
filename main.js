@@ -25,6 +25,22 @@ const baralho = [
         img: "images/tobey.jpg"
     },
     {
+        nome:"drip",
+        img: "images/drip-goku.jpg"
+    },
+    {
+        nome:"jacquin",
+        img: "images/jacquin.jpg"
+    },
+    {
+        nome:"omniman",
+        img: "images/omniman.jpg"
+    },
+    {
+        nome:"sus",
+        img: "images/sus.jpg"
+    },
+    {
         nome:"rock",
         img: "images/the-rock.jpg"
     },
@@ -47,6 +63,22 @@ const baralho = [
     {
         nome:"tobey",
         img: "images/tobey.jpg"
+    },
+    {
+        nome:"drip",
+        img: "images/drip-goku.jpg"
+    },
+    {
+        nome:"jacquin",
+        img: "images/jacquin.jpg"
+    },
+    {
+        nome:"omniman",
+        img: "images/omniman.jpg"
+    },
+    {
+        nome:"sus",
+        img: "images/sus.jpg"
     }
 ];
 
