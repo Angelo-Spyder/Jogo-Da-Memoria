@@ -149,7 +149,7 @@ function efeitoSonoro(carta1,carta2){
     let srIncrivel = document.querySelector(".sr-incrivel");
     let amongUs = document.querySelector(".among-Us");
     let hotMilk = document.querySelector(".hot-milk");
-    let profissiom = document.querySelector(".profission");
+    let profission = document.querySelector(".profission");
     let ultraInstict = document.querySelector(".ultra-instict");
 
     if(carta1.name == "rock" && carta2.name == "rock"){
@@ -169,5 +169,17 @@ function efeitoSonoro(carta1,carta2){
     };
     if(carta1.name == "deus" && carta2.name == "deus"){
         ednaldo.play()
+    };
+    if(carta1.name == "drip" && carta2.name == "drip"){
+        ultraInstict.play()
+    };
+    if(carta1.name == "jacquin" && carta2.name == "jacquin"){
+        profission.play()
+    };
+    if(carta1.name == "sus" && carta2.name == "sus"){
+        amongUs.play()
+    };
+    if(carta1.name == "omniman" && carta2.name == "omniman"){
+        hotMilk.play()
     };
 };
