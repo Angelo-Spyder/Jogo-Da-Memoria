@@ -23,20 +23,20 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     padding: 8px;
-    width: 590px;
+    width: 500px;
     margin: auto;
     gap: 10px;
     background: rgba(0, 174, 255, 0.342);
 }
 img{
-    width: 130px;
+    width: 90px;
 }
 @media screen and (max-width: 480px){
     #grade{
         padding: 8px;
-        width: 400px;
+        width: 350px;
     }
     img{
-        width: 90px;
+        width: 70px;
     }
 }
