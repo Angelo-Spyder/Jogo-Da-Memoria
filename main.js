@@ -147,7 +147,10 @@ function efeitoSonoro(carta1,carta2){
     let blackSuit = document.querySelector(".blackSuit");
     let ednaldo = document.querySelector(".ednaldo");
     let srIncrivel = document.querySelector(".sr-incrivel");
-
+    let amongUs = document.querySelector(".among-Us");
+    let hotMilk = document.querySelector(".hot-milk");
+    let profissiom = document.querySelector(".profission");
+    let ultraInstict = document.querySelector(".ultra-instict");
 
     if(carta1.name == "rock" && carta2.name == "rock"){
         rockAudio.play()
